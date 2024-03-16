@@ -24,7 +24,7 @@ module "ec2_instances" {
 
 
   }
-  depends_on = [aws_iam_instance_profile.ec2_s3_read_profile, aws_subnet.private_us_east_1a, aws_subnet.private_us_east_1b]
+  depends_on = [aws_iam_instance_profile.ec2_s3_read_profile]
 
   
 

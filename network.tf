@@ -81,3 +81,4 @@ resource "aws_route_table_association" "private_us_east_1b" {
     route_table_id = aws_route_table.private.id
   
 }
+
